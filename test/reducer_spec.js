@@ -70,5 +70,6 @@ describe('reducer', () => {
 			winner: 'Trainspotting'
 		}));
 	});
+	
 
 });

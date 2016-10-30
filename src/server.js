@@ -6,7 +6,7 @@ export default function startServer(store){
 	store.subscribe(
 		() => {
 			console.log('store', store.getState());
-			io.emit('state', store.getState().toJS())
+			io.emit('state', store.getState().toJS());
 		}
 	);
 
